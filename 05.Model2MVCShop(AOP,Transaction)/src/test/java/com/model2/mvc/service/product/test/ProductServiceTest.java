@@ -40,7 +40,7 @@ public class ProductServiceTest {
 	@Qualifier("productServiceImpl")
 	private ProductService productService;
 
-	//@Test
+	@Test
 	public void testAddProduct() throws Exception {
 		
 		Product product = new Product();
@@ -125,7 +125,7 @@ public class ProductServiceTest {
 	 }
 	
 	 //==>  주석을 풀고 실행하면....
-	 @Test
+	 //@Test
 	 public void testGetProductListAll() throws Exception{
 		 
 	 	Search search = new Search();
